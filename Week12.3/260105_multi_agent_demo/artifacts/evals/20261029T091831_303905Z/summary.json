@@ -1,0 +1,19 @@
+{
+  "mode": "offline",
+  "cases": 24,
+  "passed": 24,
+  "success_rate": 1.0,
+  "avg_steps": 6,
+  "avg_latency_ms": 19.757208333333335,
+  "avg_cost_per_run_usd": 0,
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "total_thinking_tokens": 0,
+  "python_packages": {
+    "langgraph": "1.2.18",
+    "langgraph-checkpoint-sqlite": "3.1.2",
+    "langfuse": "5.0.4",
+    "google-genai": "2.34.0",
+    "fastapi": "0.141.1"
+  }
+}

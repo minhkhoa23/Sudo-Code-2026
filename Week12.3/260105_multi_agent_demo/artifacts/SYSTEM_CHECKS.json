@@ -1,0 +1,110 @@
+{
+  "passed": 26,
+  "checks": [
+    {
+      "name": "no write before approval",
+      "passed": true
+    },
+    {
+      "name": "cross-user approval denied",
+      "passed": true
+    },
+    {
+      "name": "tampered digest denied",
+      "passed": true
+    },
+    {
+      "name": "interrupt survives reopened engine/SQLite",
+      "passed": true
+    },
+    {
+      "name": "approved memory committed once",
+      "passed": true
+    },
+    {
+      "name": "approval replay denied",
+      "passed": true
+    },
+    {
+      "name": "memory isolated by user",
+      "passed": true
+    },
+    {
+      "name": "long-term memory across threads",
+      "passed": true
+    },
+    {
+      "name": "researcher cannot write even with approval flag",
+      "passed": true
+    },
+    {
+      "name": "unknown retrieval: Giá vé máy bay Hà Nội?",
+      "passed": true
+    },
+    {
+      "name": "unknown retrieval: Kết quả giải phương trình bậc hai?",
+      "passed": true
+    },
+    {
+      "name": "unknown retrieval: Dự báo thời tiết Đà Nẵng?",
+      "passed": true
+    },
+    {
+      "name": "unknown retrieval: Ai vô địch World Cup?",
+      "passed": true
+    },
+    {
+      "name": "unknown retrieval: Cách nấu bánh pizza?",
+      "passed": true
+    },
+    {
+      "name": "rejected ticket has no side effect",
+      "passed": true
+    },
+    {
+      "name": "Langfuse export waits at gate with immutable events",
+      "passed": true
+    },
+    {
+      "name": "rejected Langfuse export not executed",
+      "passed": true
+    },
+    {
+      "name": "cross-user trace export denied",
+      "passed": true
+    },
+    {
+      "name": "Gemini receives no data before human approval",
+      "passed": true
+    },
+    {
+      "name": "rejected model send not called",
+      "passed": true
+    },
+    {
+      "name": "mocked Gemini supervisor + researcher run through gates",
+      "passed": true
+    },
+    {
+      "name": "thinking tokens included in metering",
+      "passed": true
+    },
+    {
+      "name": "invalid JSON fallback retains known billed usage",
+      "passed": true
+    },
+    {
+      "name": "timeout fallback does not report zero cost",
+      "passed": true
+    },
+    {
+      "name": "real Langfuse SDK exports local trace spans in memory",
+      "passed": true
+    },
+    {
+      "name": "real Gemini SDK adapter sends one request with structured JSON config",
+      "passed": true
+    }
+  ],
+  "external_calls": "mocked or in-memory; no live Gemini/Langfuse"
+}

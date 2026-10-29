@@ -1,0 +1,1041 @@
+[
+  {
+    "case": {
+      "id": "Q01",
+      "type": "qa",
+      "message": "Thư viện có mở cửa vào Chủ nhật không?",
+      "doc": "D01",
+      "contains": "đóng cửa"
+    },
+    "result": {
+      "thread_id": "ec8350d5b5b6493ebae3b9e37c7bcd9f",
+      "run_id": "fa3c97a256944e6cb03661172aa6de91",
+      "trace_id": "c8f37a0df55f4c79b816ee88f6707d83",
+      "status": "completed",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D01] Thư viện Bình Minh mở cửa từ 08:00 đến 20:00 từ thứ Hai đến thứ Sáu.\nThứ Bảy, thư viện mở cửa từ 08:00 đến 17:00. Thư viện đóng cửa vào Chủ nhật\nvà các ngày lễ. Quy định giờ mở cửa áp dụng cho khu đọc sách và quầy mượn trả.\nBạn đọc cần hoàn tất việc mượn sách trước giờ đóng cửa 15 phút.\nNếu lịch hoạt động thay đổi, thư viện sẽ thông báo tại bảng tin ở quầy lễ tân.\nTài liệu này không quy định lịch mở cửa của các dịch vụ bên ngoài thư viện.",
+      "sources": [
+        {
+          "doc_id": "D01",
+          "title": "Giờ mở cửa",
+          "text": "Thư viện Bình Minh mở cửa từ 08:00 đến 20:00 từ thứ Hai đến thứ Sáu.\nThứ Bảy, thư viện mở cửa từ 08:00 đến 17:00. Thư viện đóng cửa vào Chủ nhật\nvà các ngày lễ. Quy định giờ mở cửa áp dụng cho khu đọc sách và quầy mượn trả.\nBạn đọc cần hoàn tất việc mượn sách trước giờ đóng cửa 15 phút.\nNếu lịch hoạt động thay đổi, thư viện sẽ thông báo tại bảng tin ở quầy lễ tân.\nTài liệu này không quy định lịch mở cửa của các dịch vụ bên ngoài thư viện.",
+          "score": 0.79519
+        }
+      ],
+      "approval": null,
+      "history": [
+        {
+          "user": "Thư viện có mở cửa vào Chủ nhật không?",
+          "assistant": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D01] Thư viện Bình Minh mở cửa từ 08:00 đến 20:00 từ thứ Hai đến thứ Sáu.\nThứ Bảy, thư viện mở cửa từ 08:00 đến 17:00. Thư viện đóng cửa vào Chủ nhật\nvà các ngày lễ. Quy định giờ mở cửa áp dụng cho khu đọc sách và quầy mượn trả.\nBạn đọc cần hoàn tất việc mượn sách trước giờ đóng cửa 15 phút.\nNếu lịch hoạt động thay đổi, thư viện sẽ thông báo tại bảng tin ở quầy lễ tân.\nTài liệu này không quy định lịch mở cửa của các dịch vụ bên ngoài thư viện."
+        }
+      ],
+      "metrics": {
+        "steps": 5,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  },
+  {
+    "case": {
+      "id": "Q02",
+      "type": "qa",
+      "message": "Giờ mở cửa thứ Bảy là mấy giờ?",
+      "doc": "D01",
+      "contains": "17:00"
+    },
+    "result": {
+      "thread_id": "de69d35d320c443082a93782f8f5e641",
+      "run_id": "3a9cb60b3dc24623bc97d8d77399cd92",
+      "trace_id": "7d522fbe22f54449adfc304d436e7185",
+      "status": "completed",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D01] Thư viện Bình Minh mở cửa từ 08:00 đến 20:00 từ thứ Hai đến thứ Sáu.\nThứ Bảy, thư viện mở cửa từ 08:00 đến 17:00. Thư viện đóng cửa vào Chủ nhật\nvà các ngày lễ. Quy định giờ mở cửa áp dụng cho khu đọc sách và quầy mượn trả.\nBạn đọc cần hoàn tất việc mượn sách trước giờ đóng cửa 15 phút.\nNếu lịch hoạt động thay đổi, thư viện sẽ thông báo tại bảng tin ở quầy lễ tân.\nTài liệu này không quy định lịch mở cửa của các dịch vụ bên ngoài thư viện.",
+      "sources": [
+        {
+          "doc_id": "D01",
+          "title": "Giờ mở cửa",
+          "text": "Thư viện Bình Minh mở cửa từ 08:00 đến 20:00 từ thứ Hai đến thứ Sáu.\nThứ Bảy, thư viện mở cửa từ 08:00 đến 17:00. Thư viện đóng cửa vào Chủ nhật\nvà các ngày lễ. Quy định giờ mở cửa áp dụng cho khu đọc sách và quầy mượn trả.\nBạn đọc cần hoàn tất việc mượn sách trước giờ đóng cửa 15 phút.\nNếu lịch hoạt động thay đổi, thư viện sẽ thông báo tại bảng tin ở quầy lễ tân.\nTài liệu này không quy định lịch mở cửa của các dịch vụ bên ngoài thư viện.",
+          "score": 0.98044
+        }
+      ],
+      "approval": null,
+      "history": [
+        {
+          "user": "Giờ mở cửa thứ Bảy là mấy giờ?",
+          "assistant": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D01] Thư viện Bình Minh mở cửa từ 08:00 đến 20:00 từ thứ Hai đến thứ Sáu.\nThứ Bảy, thư viện mở cửa từ 08:00 đến 17:00. Thư viện đóng cửa vào Chủ nhật\nvà các ngày lễ. Quy định giờ mở cửa áp dụng cho khu đọc sách và quầy mượn trả.\nBạn đọc cần hoàn tất việc mượn sách trước giờ đóng cửa 15 phút.\nNếu lịch hoạt động thay đổi, thư viện sẽ thông báo tại bảng tin ở quầy lễ tân.\nTài liệu này không quy định lịch mở cửa của các dịch vụ bên ngoài thư viện."
+        }
+      ],
+      "metrics": {
+        "steps": 5,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  },
+  {
+    "case": {
+      "id": "Q03",
+      "type": "qa",
+      "message": "Thứ Hai đến thứ Sáu thư viện mở từ mấy giờ?",
+      "doc": "D01",
+      "contains": "20:00"
+    },
+    "result": {
+      "thread_id": "e2aac138ed03424cb56cf1cb61b4decb",
+      "run_id": "40dd2173bf914988accf09adf1d60c0a",
+      "trace_id": "159707997fb9485ea81e85c40cc0480a",
+      "status": "completed",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D01] Thư viện Bình Minh mở cửa từ 08:00 đến 20:00 từ thứ Hai đến thứ Sáu.\nThứ Bảy, thư viện mở cửa từ 08:00 đến 17:00. Thư viện đóng cửa vào Chủ nhật\nvà các ngày lễ. Quy định giờ mở cửa áp dụng cho khu đọc sách và quầy mượn trả.\nBạn đọc cần hoàn tất việc mượn sách trước giờ đóng cửa 15 phút.\nNếu lịch hoạt động thay đổi, thư viện sẽ thông báo tại bảng tin ở quầy lễ tân.\nTài liệu này không quy định lịch mở cửa của các dịch vụ bên ngoài thư viện.",
+      "sources": [
+        {
+          "doc_id": "D01",
+          "title": "Giờ mở cửa",
+          "text": "Thư viện Bình Minh mở cửa từ 08:00 đến 20:00 từ thứ Hai đến thứ Sáu.\nThứ Bảy, thư viện mở cửa từ 08:00 đến 17:00. Thư viện đóng cửa vào Chủ nhật\nvà các ngày lễ. Quy định giờ mở cửa áp dụng cho khu đọc sách và quầy mượn trả.\nBạn đọc cần hoàn tất việc mượn sách trước giờ đóng cửa 15 phút.\nNếu lịch hoạt động thay đổi, thư viện sẽ thông báo tại bảng tin ở quầy lễ tân.\nTài liệu này không quy định lịch mở cửa của các dịch vụ bên ngoài thư viện.",
+          "score": 1.16569
+        }
+      ],
+      "approval": null,
+      "history": [
+        {
+          "user": "Thứ Hai đến thứ Sáu thư viện mở từ mấy giờ?",
+          "assistant": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D01] Thư viện Bình Minh mở cửa từ 08:00 đến 20:00 từ thứ Hai đến thứ Sáu.\nThứ Bảy, thư viện mở cửa từ 08:00 đến 17:00. Thư viện đóng cửa vào Chủ nhật\nvà các ngày lễ. Quy định giờ mở cửa áp dụng cho khu đọc sách và quầy mượn trả.\nBạn đọc cần hoàn tất việc mượn sách trước giờ đóng cửa 15 phút.\nNếu lịch hoạt động thay đổi, thư viện sẽ thông báo tại bảng tin ở quầy lễ tân.\nTài liệu này không quy định lịch mở cửa của các dịch vụ bên ngoài thư viện."
+        }
+      ],
+      "metrics": {
+        "steps": 5,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  },
+  {
+    "case": {
+      "id": "Q04",
+      "type": "qa",
+      "message": "Phí đăng ký thẻ thư viện bao nhiêu?",
+      "doc": "D02",
+      "contains": "30.000"
+    },
+    "result": {
+      "thread_id": "b853f71614da4fd18275759749fcce66",
+      "run_id": "f8f7413923084464ad9555e402014a08",
+      "trace_id": "9e5aa0fde3cd46fb9db9efbb3af5845b",
+      "status": "completed",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D02] Bạn đọc từ 16 tuổi có thể đăng ký thẻ thư viện bằng giấy tờ tùy thân\nvà một ảnh thẻ. Phí làm thẻ là 30.000 đồng cho một năm sử dụng.\nHọc sinh có thẻ học sinh còn hiệu lực được miễn phí làm thẻ.\nThẻ chỉ được sử dụng bởi người đứng tên, không được cho người khác mượn.\nKhi bị mất thẻ, bạn đọc cần báo ngay cho quầy lễ tân để khóa thẻ cũ.\nMức phí trên chỉ dành cho thẻ thư viện, không áp dụng cho các dịch vụ khác.",
+      "sources": [
+        {
+          "doc_id": "D02",
+          "title": "Đăng ký thẻ thư viện",
+          "text": "Bạn đọc từ 16 tuổi có thể đăng ký thẻ thư viện bằng giấy tờ tùy thân\nvà một ảnh thẻ. Phí làm thẻ là 30.000 đồng cho một năm sử dụng.\nHọc sinh có thẻ học sinh còn hiệu lực được miễn phí làm thẻ.\nThẻ chỉ được sử dụng bởi người đứng tên, không được cho người khác mượn.\nKhi bị mất thẻ, bạn đọc cần báo ngay cho quầy lễ tân để khóa thẻ cũ.\nMức phí trên chỉ dành cho thẻ thư viện, không áp dụng cho các dịch vụ khác.",
+          "score": 0.82161
+        }
+      ],
+      "approval": null,
+      "history": [
+        {
+          "user": "Phí đăng ký thẻ thư viện bao nhiêu?",
+          "assistant": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D02] Bạn đọc từ 16 tuổi có thể đăng ký thẻ thư viện bằng giấy tờ tùy thân\nvà một ảnh thẻ. Phí làm thẻ là 30.000 đồng cho một năm sử dụng.\nHọc sinh có thẻ học sinh còn hiệu lực được miễn phí làm thẻ.\nThẻ chỉ được sử dụng bởi người đứng tên, không được cho người khác mượn.\nKhi bị mất thẻ, bạn đọc cần báo ngay cho quầy lễ tân để khóa thẻ cũ.\nMức phí trên chỉ dành cho thẻ thư viện, không áp dụng cho các dịch vụ khác."
+        }
+      ],
+      "metrics": {
+        "steps": 5,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  },
+  {
+    "case": {
+      "id": "Q05",
+      "type": "qa",
+      "message": "Học sinh có được miễn phí làm thẻ không?",
+      "doc": "D02",
+      "contains": "miễn phí"
+    },
+    "result": {
+      "thread_id": "97bc774d7113488d829f164419bfd94d",
+      "run_id": "9bbded78048c486f822bf05c3c43da33",
+      "trace_id": "42ac34a1f8fa494a9f1b491ab4fe0a3c",
+      "status": "completed",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D02] Bạn đọc từ 16 tuổi có thể đăng ký thẻ thư viện bằng giấy tờ tùy thân\nvà một ảnh thẻ. Phí làm thẻ là 30.000 đồng cho một năm sử dụng.\nHọc sinh có thẻ học sinh còn hiệu lực được miễn phí làm thẻ.\nThẻ chỉ được sử dụng bởi người đứng tên, không được cho người khác mượn.\nKhi bị mất thẻ, bạn đọc cần báo ngay cho quầy lễ tân để khóa thẻ cũ.\nMức phí trên chỉ dành cho thẻ thư viện, không áp dụng cho các dịch vụ khác.",
+      "sources": [
+        {
+          "doc_id": "D02",
+          "title": "Đăng ký thẻ thư viện",
+          "text": "Bạn đọc từ 16 tuổi có thể đăng ký thẻ thư viện bằng giấy tờ tùy thân\nvà một ảnh thẻ. Phí làm thẻ là 30.000 đồng cho một năm sử dụng.\nHọc sinh có thẻ học sinh còn hiệu lực được miễn phí làm thẻ.\nThẻ chỉ được sử dụng bởi người đứng tên, không được cho người khác mượn.\nKhi bị mất thẻ, bạn đọc cần báo ngay cho quầy lễ tân để khóa thẻ cũ.\nMức phí trên chỉ dành cho thẻ thư viện, không áp dụng cho các dịch vụ khác.",
+          "score": 1.06773
+        }
+      ],
+      "approval": null,
+      "history": [
+        {
+          "user": "Học sinh có được miễn phí làm thẻ không?",
+          "assistant": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D02] Bạn đọc từ 16 tuổi có thể đăng ký thẻ thư viện bằng giấy tờ tùy thân\nvà một ảnh thẻ. Phí làm thẻ là 30.000 đồng cho một năm sử dụng.\nHọc sinh có thẻ học sinh còn hiệu lực được miễn phí làm thẻ.\nThẻ chỉ được sử dụng bởi người đứng tên, không được cho người khác mượn.\nKhi bị mất thẻ, bạn đọc cần báo ngay cho quầy lễ tân để khóa thẻ cũ.\nMức phí trên chỉ dành cho thẻ thư viện, không áp dụng cho các dịch vụ khác."
+        }
+      ],
+      "metrics": {
+        "steps": 5,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  },
+  {
+    "case": {
+      "id": "Q06",
+      "type": "qa",
+      "message": "Đăng ký thẻ cần đủ bao nhiêu tuổi?",
+      "doc": "D02",
+      "contains": "16 tuổi"
+    },
+    "result": {
+      "thread_id": "5a476d37fd0c4827bf3a08c0c098bf41",
+      "run_id": "7c97ace9d6924ab1afacd83efbec900f",
+      "trace_id": "4840f405efc44240a367e4b36d6ba49c",
+      "status": "completed",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D02] Bạn đọc từ 16 tuổi có thể đăng ký thẻ thư viện bằng giấy tờ tùy thân\nvà một ảnh thẻ. Phí làm thẻ là 30.000 đồng cho một năm sử dụng.\nHọc sinh có thẻ học sinh còn hiệu lực được miễn phí làm thẻ.\nThẻ chỉ được sử dụng bởi người đứng tên, không được cho người khác mượn.\nKhi bị mất thẻ, bạn đọc cần báo ngay cho quầy lễ tân để khóa thẻ cũ.\nMức phí trên chỉ dành cho thẻ thư viện, không áp dụng cho các dịch vụ khác.",
+      "sources": [
+        {
+          "doc_id": "D02",
+          "title": "Đăng ký thẻ thư viện",
+          "text": "Bạn đọc từ 16 tuổi có thể đăng ký thẻ thư viện bằng giấy tờ tùy thân\nvà một ảnh thẻ. Phí làm thẻ là 30.000 đồng cho một năm sử dụng.\nHọc sinh có thẻ học sinh còn hiệu lực được miễn phí làm thẻ.\nThẻ chỉ được sử dụng bởi người đứng tên, không được cho người khác mượn.\nKhi bị mất thẻ, bạn đọc cần báo ngay cho quầy lễ tân để khóa thẻ cũ.\nMức phí trên chỉ dành cho thẻ thư viện, không áp dụng cho các dịch vụ khác.",
+          "score": 0.82161
+        }
+      ],
+      "approval": null,
+      "history": [
+        {
+          "user": "Đăng ký thẻ cần đủ bao nhiêu tuổi?",
+          "assistant": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D02] Bạn đọc từ 16 tuổi có thể đăng ký thẻ thư viện bằng giấy tờ tùy thân\nvà một ảnh thẻ. Phí làm thẻ là 30.000 đồng cho một năm sử dụng.\nHọc sinh có thẻ học sinh còn hiệu lực được miễn phí làm thẻ.\nThẻ chỉ được sử dụng bởi người đứng tên, không được cho người khác mượn.\nKhi bị mất thẻ, bạn đọc cần báo ngay cho quầy lễ tân để khóa thẻ cũ.\nMức phí trên chỉ dành cho thẻ thư viện, không áp dụng cho các dịch vụ khác."
+        }
+      ],
+      "metrics": {
+        "steps": 5,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  },
+  {
+    "case": {
+      "id": "Q07",
+      "type": "qa",
+      "message": "Mượn tối đa bao nhiêu cuốn sách cùng lúc?",
+      "doc": "D03",
+      "contains": "3 cuốn"
+    },
+    "result": {
+      "thread_id": "ed3168974b014a0b8cb647af32451af1",
+      "run_id": "ccb69ee77f5140cd8e3abadc40f983aa",
+      "trace_id": "b14316fe646b40da95c8e42a01b7f84d",
+      "status": "completed",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D03] Mỗi bạn đọc được mượn tối đa 3 cuốn sách cùng lúc.\nThời hạn mượn là 14 ngày tính từ ngày nhận sách tại quầy.\nBạn đọc cần xuất trình thẻ thư viện còn hiệu lực khi mượn.\nSách tham khảo, báo và tạp chí chỉ được đọc tại chỗ, không được mang về.\nTrước khi nhận sách, bạn đọc nên kiểm tra tình trạng sách và báo nhân viên nếu có hư hỏng.\nThông tin ngày đến hạn được ghi trên phiếu mượn sách.\n\n[D04] Mỗi lượt mượn sách được gia hạn tối đa 1 lần, thêm 7 ngày.\nBạn đọc phải yêu cầu gia hạn trước ngày đến hạn trả sách.\nChỉ được gia hạn khi sách chưa bị quá hạn và chưa có người khác đặt trước.\nCó thể yêu cầu gia hạn tại quầy mượn trả hoặc qua email hỗ trợ của thư viện.\nNhân viên sẽ xác nhận kết quả gia hạn; gửi yêu cầu không có nghĩa là đã được chấp nhận.\nSách đã có người đặt trước cần được trả theo ngày hẹn ban đầu.",
+      "sources": [
+        {
+          "doc_id": "D03",
+          "title": "Số lượng sách và thời hạn mượn",
+          "text": "Mỗi bạn đọc được mượn tối đa 3 cuốn sách cùng lúc.\nThời hạn mượn là 14 ngày tính từ ngày nhận sách tại quầy.\nBạn đọc cần xuất trình thẻ thư viện còn hiệu lực khi mượn.\nSách tham khảo, báo và tạp chí chỉ được đọc tại chỗ, không được mang về.\nTrước khi nhận sách, bạn đọc nên kiểm tra tình trạng sách và báo nhân viên nếu có hư hỏng.\nThông tin ngày đến hạn được ghi trên phiếu mượn sách.",
+          "score": 1.02738
+        },
+        {
+          "doc_id": "D04",
+          "title": "Gia hạn mượn sách",
+          "text": "Mỗi lượt mượn sách được gia hạn tối đa 1 lần, thêm 7 ngày.\nBạn đọc phải yêu cầu gia hạn trước ngày đến hạn trả sách.\nChỉ được gia hạn khi sách chưa bị quá hạn và chưa có người khác đặt trước.\nCó thể yêu cầu gia hạn tại quầy mượn trả hoặc qua email hỗ trợ của thư viện.\nNhân viên sẽ xác nhận kết quả gia hạn; gửi yêu cầu không có nghĩa là đã được chấp nhận.\nSách đã có người đặt trước cần được trả theo ngày hẹn ban đầu.",
+          "score": 0.66578
+        }
+      ],
+      "approval": null,
+      "history": [
+        {
+          "user": "Mượn tối đa bao nhiêu cuốn sách cùng lúc?",
+          "assistant": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D03] Mỗi bạn đọc được mượn tối đa 3 cuốn sách cùng lúc.\nThời hạn mượn là 14 ngày tính từ ngày nhận sách tại quầy.\nBạn đọc cần xuất trình thẻ thư viện còn hiệu lực khi mượn.\nSách tham khảo, báo và tạp chí chỉ được đọc tại chỗ, không được mang về.\nTrước khi nhận sách, bạn đọc nên kiểm tra tình trạng sách và báo nhân viên nếu có hư hỏng.\nThông tin ngày đến hạn được ghi trên phiếu mượn sách.\n\n[D04] Mỗi lượt mượn sách được gia hạn tối đa 1 lần, thêm 7 ngày.\nBạn đọc phải yêu cầu gia hạn trước ngày đến hạn trả sách.\nChỉ được gia hạn khi sách chưa bị quá hạn và chưa có người khác đặt trước.\nCó thể yêu cầu gia hạn tại quầy mượn trả hoặc qua email hỗ trợ của thư viện.\nNhân viên sẽ xác nhận kết quả gia hạn; gửi yêu cầu không có nghĩa là đã được chấp nhận.\nSách đã có người đặt trước cần được trả theo ngày hẹn ban đầu."
+        }
+      ],
+      "metrics": {
+        "steps": 5,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  },
+  {
+    "case": {
+      "id": "Q08",
+      "type": "qa",
+      "message": "Thời hạn mượn sách là bao nhiêu ngày?",
+      "doc": "D03",
+      "contains": "14 ngày"
+    },
+    "result": {
+      "thread_id": "6b3ea14378d343b0855beec0d8696fb1",
+      "run_id": "34434afcfbd0486fb31940b3b4a04244",
+      "trace_id": "33789ed7e4144b149d78d08211011d34",
+      "status": "completed",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D03] Mỗi bạn đọc được mượn tối đa 3 cuốn sách cùng lúc.\nThời hạn mượn là 14 ngày tính từ ngày nhận sách tại quầy.\nBạn đọc cần xuất trình thẻ thư viện còn hiệu lực khi mượn.\nSách tham khảo, báo và tạp chí chỉ được đọc tại chỗ, không được mang về.\nTrước khi nhận sách, bạn đọc nên kiểm tra tình trạng sách và báo nhân viên nếu có hư hỏng.\nThông tin ngày đến hạn được ghi trên phiếu mượn sách.\n\n[D04] Mỗi lượt mượn sách được gia hạn tối đa 1 lần, thêm 7 ngày.\nBạn đọc phải yêu cầu gia hạn trước ngày đến hạn trả sách.\nChỉ được gia hạn khi sách chưa bị quá hạn và chưa có người khác đặt trước.\nCó thể yêu cầu gia hạn tại quầy mượn trả hoặc qua email hỗ trợ của thư viện.\nNhân viên sẽ xác nhận kết quả gia hạn; gửi yêu cầu không có nghĩa là đã được chấp nhận.\nSách đã có người đặt trước cần được trả theo ngày hẹn ban đầu.\n\n[D05] Phí trả sách quá hạn là 2.000 đồng cho mỗi cuốn sách trong một ngày.\nVí dụ, một cuốn sách quá hạn 3 ngày có phí quá hạn là 6.000 đồng.\nBạn đọc cần trả sách và hoàn tất khoản phí này trước khi được mượn sách mới.\nQuy định này chỉ áp dụng cho phí quá hạn, không bao gồm bồi thường sách bị mất.\nThư viện chưa công bố mức bồi thường sách bị mất trong kho tài liệu demo này.",
+      "sources": [
+        {
+          "doc_id": "D03",
+          "title": "Số lượng sách và thời hạn mượn",
+          "text": "Mỗi bạn đọc được mượn tối đa 3 cuốn sách cùng lúc.\nThời hạn mượn là 14 ngày tính từ ngày nhận sách tại quầy.\nBạn đọc cần xuất trình thẻ thư viện còn hiệu lực khi mượn.\nSách tham khảo, báo và tạp chí chỉ được đọc tại chỗ, không được mang về.\nTrước khi nhận sách, bạn đọc nên kiểm tra tình trạng sách và báo nhân viên nếu có hư hỏng.\nThông tin ngày đến hạn được ghi trên phiếu mượn sách.",
+          "score": 1.08415
+        },
+        {
+          "doc_id": "D04",
+          "title": "Gia hạn mượn sách",
+          "text": "Mỗi lượt mượn sách được gia hạn tối đa 1 lần, thêm 7 ngày.\nBạn đọc phải yêu cầu gia hạn trước ngày đến hạn trả sách.\nChỉ được gia hạn khi sách chưa bị quá hạn và chưa có người khác đặt trước.\nCó thể yêu cầu gia hạn tại quầy mượn trả hoặc qua email hỗ trợ của thư viện.\nNhân viên sẽ xác nhận kết quả gia hạn; gửi yêu cầu không có nghĩa là đã được chấp nhận.\nSách đã có người đặt trước cần được trả theo ngày hẹn ban đầu.",
+          "score": 0.98628
+        },
+        {
+          "doc_id": "D05",
+          "title": "Trả sách quá hạn",
+          "text": "Phí trả sách quá hạn là 2.000 đồng cho mỗi cuốn sách trong một ngày.\nVí dụ, một cuốn sách quá hạn 3 ngày có phí quá hạn là 6.000 đồng.\nBạn đọc cần trả sách và hoàn tất khoản phí này trước khi được mượn sách mới.\nQuy định này chỉ áp dụng cho phí quá hạn, không bao gồm bồi thường sách bị mất.\nThư viện chưa công bố mức bồi thường sách bị mất trong kho tài liệu demo này.",
+          "score": 0.91402
+        }
+      ],
+      "approval": null,
+      "history": [
+        {
+          "user": "Thời hạn mượn sách là bao nhiêu ngày?",
+          "assistant": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D03] Mỗi bạn đọc được mượn tối đa 3 cuốn sách cùng lúc.\nThời hạn mượn là 14 ngày tính từ ngày nhận sách tại quầy.\nBạn đọc cần xuất trình thẻ thư viện còn hiệu lực khi mượn.\nSách tham khảo, báo và tạp chí chỉ được đọc tại chỗ, không được mang về.\nTrước khi nhận sách, bạn đọc nên kiểm tra tình trạng sách và báo nhân viên nếu có hư hỏng.\nThông tin ngày đến hạn được ghi trên phiếu mượn sách.\n\n[D04] Mỗi lượt mượn sách được gia hạn tối đa 1 lần, thêm 7 ngày.\nBạn đọc phải yêu cầu gia hạn trước ngày đến hạn trả sách.\nChỉ được gia hạn khi sách chưa bị quá hạn và chưa có người khác đặt trước.\nCó thể yêu cầu gia hạn tại quầy mượn trả hoặc qua email hỗ trợ của thư viện.\nNhân viên sẽ xác nhận kết quả gia hạn; gửi yêu cầu không có nghĩa là đã được chấp nhận.\nSách đã có người đặt trước cần được trả theo ngày hẹn ban đầu.\n\n[D05] Phí trả sách quá hạn là 2.000 đồng cho mỗi cuốn sách trong một ngày.\nVí dụ, một cuốn sách quá hạn 3 ngày có phí quá hạn là 6.000 đồng.\nBạn đọc cần trả sách và hoàn tất khoản phí này trước khi được mượn sách mới.\nQuy định này chỉ áp dụng cho phí quá hạn, không bao gồm bồi thường sách bị mất.\nThư viện chưa công bố mức bồi thường sách bị mất trong kho tài liệu demo này."
+        }
+      ],
+      "metrics": {
+        "steps": 5,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  },
+  {
+    "case": {
+      "id": "Q09",
+      "type": "qa",
+      "message": "Điều kiện gia hạn mượn sách là gì?",
+      "doc": "D04",
+      "contains": "7 ngày"
+    },
+    "result": {
+      "thread_id": "9be32990a5f341bb9a7b2262a518713f",
+      "run_id": "09208e169cf14a518b675928f022b828",
+      "trace_id": "6ed5a35252b24106a5b009a4a28edefa",
+      "status": "completed",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D04] Mỗi lượt mượn sách được gia hạn tối đa 1 lần, thêm 7 ngày.\nBạn đọc phải yêu cầu gia hạn trước ngày đến hạn trả sách.\nChỉ được gia hạn khi sách chưa bị quá hạn và chưa có người khác đặt trước.\nCó thể yêu cầu gia hạn tại quầy mượn trả hoặc qua email hỗ trợ của thư viện.\nNhân viên sẽ xác nhận kết quả gia hạn; gửi yêu cầu không có nghĩa là đã được chấp nhận.\nSách đã có người đặt trước cần được trả theo ngày hẹn ban đầu.\n\n[D07] Thư viện có Wi-Fi miễn phí cho bạn đọc.\nTên mạng là BinhMinh-Guest; mật khẩu được cung cấp tại quầy lễ tân.\nKhông chia sẻ tài khoản thư viện hoặc mật khẩu cá nhân với người khác.\nBạn đọc cần giữ yên lặng ở khu đọc sách và chuyển điện thoại sang chế độ im lặng.\nCâu hỏi về mượn trả, thẻ và gia hạn có thể gửi tới hotro@binhminh.example.\nĐây là địa chỉ minh họa, không phải địa chỉ liên hệ thật.",
+      "sources": [
+        {
+          "doc_id": "D04",
+          "title": "Gia hạn mượn sách",
+          "text": "Mỗi lượt mượn sách được gia hạn tối đa 1 lần, thêm 7 ngày.\nBạn đọc phải yêu cầu gia hạn trước ngày đến hạn trả sách.\nChỉ được gia hạn khi sách chưa bị quá hạn và chưa có người khác đặt trước.\nCó thể yêu cầu gia hạn tại quầy mượn trả hoặc qua email hỗ trợ của thư viện.\nNhân viên sẽ xác nhận kết quả gia hạn; gửi yêu cầu không có nghĩa là đã được chấp nhận.\nSách đã có người đặt trước cần được trả theo ngày hẹn ban đầu.",
+          "score": 1.06791
+        },
+        {
+          "doc_id": "D07",
+          "title": "Wi-Fi, hỗ trợ và nội quy",
+          "text": "Thư viện có Wi-Fi miễn phí cho bạn đọc.\nTên mạng là BinhMinh-Guest; mật khẩu được cung cấp tại quầy lễ tân.\nKhông chia sẻ tài khoản thư viện hoặc mật khẩu cá nhân với người khác.\nBạn đọc cần giữ yên lặng ở khu đọc sách và chuyển điện thoại sang chế độ im lặng.\nCâu hỏi về mượn trả, thẻ và gia hạn có thể gửi tới hotro@binhminh.example.\nĐây là địa chỉ minh họa, không phải địa chỉ liên hệ thật.",
+          "score": 0.35499
+        }
+      ],
+      "approval": null,
+      "history": [
+        {
+          "user": "Điều kiện gia hạn mượn sách là gì?",
+          "assistant": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D04] Mỗi lượt mượn sách được gia hạn tối đa 1 lần, thêm 7 ngày.\nBạn đọc phải yêu cầu gia hạn trước ngày đến hạn trả sách.\nChỉ được gia hạn khi sách chưa bị quá hạn và chưa có người khác đặt trước.\nCó thể yêu cầu gia hạn tại quầy mượn trả hoặc qua email hỗ trợ của thư viện.\nNhân viên sẽ xác nhận kết quả gia hạn; gửi yêu cầu không có nghĩa là đã được chấp nhận.\nSách đã có người đặt trước cần được trả theo ngày hẹn ban đầu.\n\n[D07] Thư viện có Wi-Fi miễn phí cho bạn đọc.\nTên mạng là BinhMinh-Guest; mật khẩu được cung cấp tại quầy lễ tân.\nKhông chia sẻ tài khoản thư viện hoặc mật khẩu cá nhân với người khác.\nBạn đọc cần giữ yên lặng ở khu đọc sách và chuyển điện thoại sang chế độ im lặng.\nCâu hỏi về mượn trả, thẻ và gia hạn có thể gửi tới hotro@binhminh.example.\nĐây là địa chỉ minh họa, không phải địa chỉ liên hệ thật."
+        }
+      ],
+      "metrics": {
+        "steps": 5,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  },
+  {
+    "case": {
+      "id": "Q10",
+      "type": "qa",
+      "message": "Phí trả sách quá hạn mỗi ngày bao nhiêu?",
+      "doc": "D05",
+      "contains": "2.000"
+    },
+    "result": {
+      "thread_id": "bbcb56dffeb545cdbf0d5c6eae8578c6",
+      "run_id": "1714dece0d274902b7346150ee7394db",
+      "trace_id": "ea30af433c10468ba5e9f16f4cf43acd",
+      "status": "completed",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D05] Phí trả sách quá hạn là 2.000 đồng cho mỗi cuốn sách trong một ngày.\nVí dụ, một cuốn sách quá hạn 3 ngày có phí quá hạn là 6.000 đồng.\nBạn đọc cần trả sách và hoàn tất khoản phí này trước khi được mượn sách mới.\nQuy định này chỉ áp dụng cho phí quá hạn, không bao gồm bồi thường sách bị mất.\nThư viện chưa công bố mức bồi thường sách bị mất trong kho tài liệu demo này.\n\n[D04] Mỗi lượt mượn sách được gia hạn tối đa 1 lần, thêm 7 ngày.\nBạn đọc phải yêu cầu gia hạn trước ngày đến hạn trả sách.\nChỉ được gia hạn khi sách chưa bị quá hạn và chưa có người khác đặt trước.\nCó thể yêu cầu gia hạn tại quầy mượn trả hoặc qua email hỗ trợ của thư viện.\nNhân viên sẽ xác nhận kết quả gia hạn; gửi yêu cầu không có nghĩa là đã được chấp nhận.\nSách đã có người đặt trước cần được trả theo ngày hẹn ban đầu.\n\n[D07] Thư viện có Wi-Fi miễn phí cho bạn đọc.\nTên mạng là BinhMinh-Guest; mật khẩu được cung cấp tại quầy lễ tân.\nKhông chia sẻ tài khoản thư viện hoặc mật khẩu cá nhân với người khác.\nBạn đọc cần giữ yên lặng ở khu đọc sách và chuyển điện thoại sang chế độ im lặng.\nCâu hỏi về mượn trả, thẻ và gia hạn có thể gửi tới hotro@binhminh.example.\nĐây là địa chỉ minh họa, không phải địa chỉ liên hệ thật.",
+      "sources": [
+        {
+          "doc_id": "D05",
+          "title": "Trả sách quá hạn",
+          "text": "Phí trả sách quá hạn là 2.000 đồng cho mỗi cuốn sách trong một ngày.\nVí dụ, một cuốn sách quá hạn 3 ngày có phí quá hạn là 6.000 đồng.\nBạn đọc cần trả sách và hoàn tất khoản phí này trước khi được mượn sách mới.\nQuy định này chỉ áp dụng cho phí quá hạn, không bao gồm bồi thường sách bị mất.\nThư viện chưa công bố mức bồi thường sách bị mất trong kho tài liệu demo này.",
+          "score": 1.56139
+        },
+        {
+          "doc_id": "D04",
+          "title": "Gia hạn mượn sách",
+          "text": "Mỗi lượt mượn sách được gia hạn tối đa 1 lần, thêm 7 ngày.\nBạn đọc phải yêu cầu gia hạn trước ngày đến hạn trả sách.\nChỉ được gia hạn khi sách chưa bị quá hạn và chưa có người khác đặt trước.\nCó thể yêu cầu gia hạn tại quầy mượn trả hoặc qua email hỗ trợ của thư viện.\nNhân viên sẽ xác nhận kết quả gia hạn; gửi yêu cầu không có nghĩa là đã được chấp nhận.\nSách đã có người đặt trước cần được trả theo ngày hẹn ban đầu.",
+          "score": 1.08738
+        },
+        {
+          "doc_id": "D07",
+          "title": "Wi-Fi, hỗ trợ và nội quy",
+          "text": "Thư viện có Wi-Fi miễn phí cho bạn đọc.\nTên mạng là BinhMinh-Guest; mật khẩu được cung cấp tại quầy lễ tân.\nKhông chia sẻ tài khoản thư viện hoặc mật khẩu cá nhân với người khác.\nBạn đọc cần giữ yên lặng ở khu đọc sách và chuyển điện thoại sang chế độ im lặng.\nCâu hỏi về mượn trả, thẻ và gia hạn có thể gửi tới hotro@binhminh.example.\nĐây là địa chỉ minh họa, không phải địa chỉ liên hệ thật.",
+          "score": 0.35499
+        }
+      ],
+      "approval": null,
+      "history": [
+        {
+          "user": "Phí trả sách quá hạn mỗi ngày bao nhiêu?",
+          "assistant": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D05] Phí trả sách quá hạn là 2.000 đồng cho mỗi cuốn sách trong một ngày.\nVí dụ, một cuốn sách quá hạn 3 ngày có phí quá hạn là 6.000 đồng.\nBạn đọc cần trả sách và hoàn tất khoản phí này trước khi được mượn sách mới.\nQuy định này chỉ áp dụng cho phí quá hạn, không bao gồm bồi thường sách bị mất.\nThư viện chưa công bố mức bồi thường sách bị mất trong kho tài liệu demo này.\n\n[D04] Mỗi lượt mượn sách được gia hạn tối đa 1 lần, thêm 7 ngày.\nBạn đọc phải yêu cầu gia hạn trước ngày đến hạn trả sách.\nChỉ được gia hạn khi sách chưa bị quá hạn và chưa có người khác đặt trước.\nCó thể yêu cầu gia hạn tại quầy mượn trả hoặc qua email hỗ trợ của thư viện.\nNhân viên sẽ xác nhận kết quả gia hạn; gửi yêu cầu không có nghĩa là đã được chấp nhận.\nSách đã có người đặt trước cần được trả theo ngày hẹn ban đầu.\n\n[D07] Thư viện có Wi-Fi miễn phí cho bạn đọc.\nTên mạng là BinhMinh-Guest; mật khẩu được cung cấp tại quầy lễ tân.\nKhông chia sẻ tài khoản thư viện hoặc mật khẩu cá nhân với người khác.\nBạn đọc cần giữ yên lặng ở khu đọc sách và chuyển điện thoại sang chế độ im lặng.\nCâu hỏi về mượn trả, thẻ và gia hạn có thể gửi tới hotro@binhminh.example.\nĐây là địa chỉ minh họa, không phải địa chỉ liên hệ thật."
+        }
+      ],
+      "metrics": {
+        "steps": 5,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  },
+  {
+    "case": {
+      "id": "Q11",
+      "type": "qa",
+      "message": "Phòng học nhóm dành cho bao nhiêu người?",
+      "doc": "D06",
+      "contains": "2 đến 6"
+    },
+    "result": {
+      "thread_id": "4e03c30ec4c34e78a070074463f5ce1e",
+      "run_id": "6d48976b99d74d6c807a3052ae9b9c06",
+      "trace_id": "7c75af415875423fad85163e7ae47da1",
+      "status": "completed",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D06] Phòng học nhóm dành cho nhóm từ 2 đến 6 người.\nMỗi nhóm được sử dụng phòng tối đa 2 giờ cho một lượt đặt.\nBạn đọc đặt phòng tại quầy lễ tân trước ít nhất 24 giờ và xuất trình thẻ thư viện.\nNếu đến muộn quá 15 phút mà không báo trước, lượt đặt phòng sẽ bị hủy.\nKhông ăn uống trong phòng và cần dọn sạch bàn ghế sau khi sử dụng.\nKho tài liệu này không quy định phí thuê phòng học nhóm.",
+      "sources": [
+        {
+          "doc_id": "D06",
+          "title": "Đặt phòng học nhóm",
+          "text": "Phòng học nhóm dành cho nhóm từ 2 đến 6 người.\nMỗi nhóm được sử dụng phòng tối đa 2 giờ cho một lượt đặt.\nBạn đọc đặt phòng tại quầy lễ tân trước ít nhất 24 giờ và xuất trình thẻ thư viện.\nNếu đến muộn quá 15 phút mà không báo trước, lượt đặt phòng sẽ bị hủy.\nKhông ăn uống trong phòng và cần dọn sạch bàn ghế sau khi sử dụng.\nKho tài liệu này không quy định phí thuê phòng học nhóm.",
+          "score": 0.81738
+        }
+      ],
+      "approval": null,
+      "history": [
+        {
+          "user": "Phòng học nhóm dành cho bao nhiêu người?",
+          "assistant": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D06] Phòng học nhóm dành cho nhóm từ 2 đến 6 người.\nMỗi nhóm được sử dụng phòng tối đa 2 giờ cho một lượt đặt.\nBạn đọc đặt phòng tại quầy lễ tân trước ít nhất 24 giờ và xuất trình thẻ thư viện.\nNếu đến muộn quá 15 phút mà không báo trước, lượt đặt phòng sẽ bị hủy.\nKhông ăn uống trong phòng và cần dọn sạch bàn ghế sau khi sử dụng.\nKho tài liệu này không quy định phí thuê phòng học nhóm."
+        }
+      ],
+      "metrics": {
+        "steps": 5,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  },
+  {
+    "case": {
+      "id": "Q12",
+      "type": "qa",
+      "message": "Phòng học nhóm cần đặt trước bao nhiêu giờ?",
+      "doc": "D06",
+      "contains": "24 giờ"
+    },
+    "result": {
+      "thread_id": "1d47e0077e6e44dbaef505cf994af024",
+      "run_id": "839e4dce05c04be4aeb1e8f36064125b",
+      "trace_id": "c4e624db2fbf4987b8ce7ce9efdc8c54",
+      "status": "completed",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D06] Phòng học nhóm dành cho nhóm từ 2 đến 6 người.\nMỗi nhóm được sử dụng phòng tối đa 2 giờ cho một lượt đặt.\nBạn đọc đặt phòng tại quầy lễ tân trước ít nhất 24 giờ và xuất trình thẻ thư viện.\nNếu đến muộn quá 15 phút mà không báo trước, lượt đặt phòng sẽ bị hủy.\nKhông ăn uống trong phòng và cần dọn sạch bàn ghế sau khi sử dụng.\nKho tài liệu này không quy định phí thuê phòng học nhóm.",
+      "sources": [
+        {
+          "doc_id": "D06",
+          "title": "Đặt phòng học nhóm",
+          "text": "Phòng học nhóm dành cho nhóm từ 2 đến 6 người.\nMỗi nhóm được sử dụng phòng tối đa 2 giờ cho một lượt đặt.\nBạn đọc đặt phòng tại quầy lễ tân trước ít nhất 24 giờ và xuất trình thẻ thư viện.\nNếu đến muộn quá 15 phút mà không báo trước, lượt đặt phòng sẽ bị hủy.\nKhông ăn uống trong phòng và cần dọn sạch bàn ghế sau khi sử dụng.\nKho tài liệu này không quy định phí thuê phòng học nhóm.",
+          "score": 1.34027
+        }
+      ],
+      "approval": null,
+      "history": [
+        {
+          "user": "Phòng học nhóm cần đặt trước bao nhiêu giờ?",
+          "assistant": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D06] Phòng học nhóm dành cho nhóm từ 2 đến 6 người.\nMỗi nhóm được sử dụng phòng tối đa 2 giờ cho một lượt đặt.\nBạn đọc đặt phòng tại quầy lễ tân trước ít nhất 24 giờ và xuất trình thẻ thư viện.\nNếu đến muộn quá 15 phút mà không báo trước, lượt đặt phòng sẽ bị hủy.\nKhông ăn uống trong phòng và cần dọn sạch bàn ghế sau khi sử dụng.\nKho tài liệu này không quy định phí thuê phòng học nhóm."
+        }
+      ],
+      "metrics": {
+        "steps": 5,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  },
+  {
+    "case": {
+      "id": "Q13",
+      "type": "qa",
+      "message": "Kho tài liệu có quy định phí thuê phòng học nhóm không?",
+      "doc": "D06",
+      "contains": "không quy định"
+    },
+    "result": {
+      "thread_id": "119c2a3dd556451f8b48c715cda48aef",
+      "run_id": "9f104728a2c044e49077b1fa743ded0e",
+      "trace_id": "fdb7aa0a073f4fa9b0343b9cd2f84a32",
+      "status": "completed",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D06] Phòng học nhóm dành cho nhóm từ 2 đến 6 người.\nMỗi nhóm được sử dụng phòng tối đa 2 giờ cho một lượt đặt.\nBạn đọc đặt phòng tại quầy lễ tân trước ít nhất 24 giờ và xuất trình thẻ thư viện.\nNếu đến muộn quá 15 phút mà không báo trước, lượt đặt phòng sẽ bị hủy.\nKhông ăn uống trong phòng và cần dọn sạch bàn ghế sau khi sử dụng.\nKho tài liệu này không quy định phí thuê phòng học nhóm.\n\n[D05] Phí trả sách quá hạn là 2.000 đồng cho mỗi cuốn sách trong một ngày.\nVí dụ, một cuốn sách quá hạn 3 ngày có phí quá hạn là 6.000 đồng.\nBạn đọc cần trả sách và hoàn tất khoản phí này trước khi được mượn sách mới.\nQuy định này chỉ áp dụng cho phí quá hạn, không bao gồm bồi thường sách bị mất.\nThư viện chưa công bố mức bồi thường sách bị mất trong kho tài liệu demo này.",
+      "sources": [
+        {
+          "doc_id": "D06",
+          "title": "Đặt phòng học nhóm",
+          "text": "Phòng học nhóm dành cho nhóm từ 2 đến 6 người.\nMỗi nhóm được sử dụng phòng tối đa 2 giờ cho một lượt đặt.\nBạn đọc đặt phòng tại quầy lễ tân trước ít nhất 24 giờ và xuất trình thẻ thư viện.\nNếu đến muộn quá 15 phút mà không báo trước, lượt đặt phòng sẽ bị hủy.\nKhông ăn uống trong phòng và cần dọn sạch bàn ghế sau khi sử dụng.\nKho tài liệu này không quy định phí thuê phòng học nhóm.",
+          "score": 1.38865
+        },
+        {
+          "doc_id": "D05",
+          "title": "Trả sách quá hạn",
+          "text": "Phí trả sách quá hạn là 2.000 đồng cho mỗi cuốn sách trong một ngày.\nVí dụ, một cuốn sách quá hạn 3 ngày có phí quá hạn là 6.000 đồng.\nBạn đọc cần trả sách và hoàn tất khoản phí này trước khi được mượn sách mới.\nQuy định này chỉ áp dụng cho phí quá hạn, không bao gồm bồi thường sách bị mất.\nThư viện chưa công bố mức bồi thường sách bị mất trong kho tài liệu demo này.",
+          "score": 0.80246
+        }
+      ],
+      "approval": null,
+      "history": [
+        {
+          "user": "Kho tài liệu có quy định phí thuê phòng học nhóm không?",
+          "assistant": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D06] Phòng học nhóm dành cho nhóm từ 2 đến 6 người.\nMỗi nhóm được sử dụng phòng tối đa 2 giờ cho một lượt đặt.\nBạn đọc đặt phòng tại quầy lễ tân trước ít nhất 24 giờ và xuất trình thẻ thư viện.\nNếu đến muộn quá 15 phút mà không báo trước, lượt đặt phòng sẽ bị hủy.\nKhông ăn uống trong phòng và cần dọn sạch bàn ghế sau khi sử dụng.\nKho tài liệu này không quy định phí thuê phòng học nhóm.\n\n[D05] Phí trả sách quá hạn là 2.000 đồng cho mỗi cuốn sách trong một ngày.\nVí dụ, một cuốn sách quá hạn 3 ngày có phí quá hạn là 6.000 đồng.\nBạn đọc cần trả sách và hoàn tất khoản phí này trước khi được mượn sách mới.\nQuy định này chỉ áp dụng cho phí quá hạn, không bao gồm bồi thường sách bị mất.\nThư viện chưa công bố mức bồi thường sách bị mất trong kho tài liệu demo này."
+        }
+      ],
+      "metrics": {
+        "steps": 5,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  },
+  {
+    "case": {
+      "id": "Q14",
+      "type": "qa",
+      "message": "Tên mạng Wi-Fi thư viện là gì?",
+      "doc": "D07",
+      "contains": "BinhMinh-Guest"
+    },
+    "result": {
+      "thread_id": "541ff144c33445e29632ee6ac1d12df4",
+      "run_id": "c86b4f4cb9fb4b7582f3911ba265351b",
+      "trace_id": "f87f183ec6f540aabc52a7fdbf8e8655",
+      "status": "completed",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D07] Thư viện có Wi-Fi miễn phí cho bạn đọc.\nTên mạng là BinhMinh-Guest; mật khẩu được cung cấp tại quầy lễ tân.\nKhông chia sẻ tài khoản thư viện hoặc mật khẩu cá nhân với người khác.\nBạn đọc cần giữ yên lặng ở khu đọc sách và chuyển điện thoại sang chế độ im lặng.\nCâu hỏi về mượn trả, thẻ và gia hạn có thể gửi tới hotro@binhminh.example.\nĐây là địa chỉ minh họa, không phải địa chỉ liên hệ thật.",
+      "sources": [
+        {
+          "doc_id": "D07",
+          "title": "Wi-Fi, hỗ trợ và nội quy",
+          "text": "Thư viện có Wi-Fi miễn phí cho bạn đọc.\nTên mạng là BinhMinh-Guest; mật khẩu được cung cấp tại quầy lễ tân.\nKhông chia sẻ tài khoản thư viện hoặc mật khẩu cá nhân với người khác.\nBạn đọc cần giữ yên lặng ở khu đọc sách và chuyển điện thoại sang chế độ im lặng.\nCâu hỏi về mượn trả, thẻ và gia hạn có thể gửi tới hotro@binhminh.example.\nĐây là địa chỉ minh họa, không phải địa chỉ liên hệ thật.",
+          "score": 0.45882
+        }
+      ],
+      "approval": null,
+      "history": [
+        {
+          "user": "Tên mạng Wi-Fi thư viện là gì?",
+          "assistant": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D07] Thư viện có Wi-Fi miễn phí cho bạn đọc.\nTên mạng là BinhMinh-Guest; mật khẩu được cung cấp tại quầy lễ tân.\nKhông chia sẻ tài khoản thư viện hoặc mật khẩu cá nhân với người khác.\nBạn đọc cần giữ yên lặng ở khu đọc sách và chuyển điện thoại sang chế độ im lặng.\nCâu hỏi về mượn trả, thẻ và gia hạn có thể gửi tới hotro@binhminh.example.\nĐây là địa chỉ minh họa, không phải địa chỉ liên hệ thật."
+        }
+      ],
+      "metrics": {
+        "steps": 5,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  },
+  {
+    "case": {
+      "id": "Q15",
+      "type": "unknown",
+      "message": "Giá vé tàu hỏa Hà Nội là bao nhiêu?"
+    },
+    "result": {
+      "thread_id": "4599f53d1a1b4922906cdf68f49505e3",
+      "run_id": "f8deec9ae9b24e69ab01fa699d40a977",
+      "trace_id": "60ae38c015c6413abab9fbb73285fd78",
+      "status": "completed",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "Mình chưa có thông tin này trong tài liệu.",
+      "sources": [],
+      "approval": null,
+      "history": [
+        {
+          "user": "Giá vé tàu hỏa Hà Nội là bao nhiêu?",
+          "assistant": "Mình chưa có thông tin này trong tài liệu."
+        }
+      ],
+      "metrics": {
+        "steps": 5,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  },
+  {
+    "case": {
+      "id": "T16",
+      "type": "fee",
+      "message": "Tính phí 2 cuốn quá hạn 3 ngày.",
+      "args": {
+        "books": 2,
+        "days": 3
+      },
+      "expected": 12000
+    },
+    "result": {
+      "thread_id": "4af92683c2a44385aabae697f05fd617",
+      "run_id": "fa35ffbee4484fb1abbb52739f93659f",
+      "trace_id": "73003635007e4e83804812cda1fc90fa",
+      "status": "completed",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "Phí quá hạn: 2 cuốn × 3 ngày × 2.000 đồng = 12000 đồng. [D05]",
+      "sources": [],
+      "approval": null,
+      "history": [
+        {
+          "user": "Tính phí 2 cuốn quá hạn 3 ngày.",
+          "assistant": "Phí quá hạn: 2 cuốn × 3 ngày × 2.000 đồng = 12000 đồng. [D05]"
+        }
+      ],
+      "metrics": {
+        "steps": 5,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  },
+  {
+    "case": {
+      "id": "T17",
+      "type": "fee",
+      "message": "Tính phí 10 cuốn quá hạn 0 ngày.",
+      "args": {
+        "books": 10,
+        "days": 0
+      },
+      "expected": 0
+    },
+    "result": {
+      "thread_id": "4a58e24efd1244cbbef142ac815b24b8",
+      "run_id": "e2237e8d73264e85b661bc09a74816c6",
+      "trace_id": "bbea722c62dc4922b5b8c17355854b57",
+      "status": "completed",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "Phí quá hạn: 10 cuốn × 0 ngày × 2.000 đồng = 0 đồng. [D05]",
+      "sources": [],
+      "approval": null,
+      "history": [
+        {
+          "user": "Tính phí 10 cuốn quá hạn 0 ngày.",
+          "assistant": "Phí quá hạn: 10 cuốn × 0 ngày × 2.000 đồng = 0 đồng. [D05]"
+        }
+      ],
+      "metrics": {
+        "steps": 5,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  },
+  {
+    "case": {
+      "id": "M18",
+      "type": "memory",
+      "decision": "approve",
+      "message": "Ghi nhớ ngôn ngữ mình thích.",
+      "args": {
+        "key": "language",
+        "value": "Tiếng Việt"
+      }
+    },
+    "result": {
+      "thread_id": "13009cde61144c6cadf99dd531393815",
+      "run_id": "01c1d0aa7d5848f9bf726570f5027f3f",
+      "trace_id": "babb9c7320474206b3f738f5506e7f4c",
+      "status": "completed",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "Đã thực hiện sau khi duyệt: {\"saved\":\"language\",\"value\":\"Tiếng Việt\"}",
+      "sources": [],
+      "approval": null,
+      "history": [
+        {
+          "user": "Ghi nhớ ngôn ngữ mình thích.",
+          "assistant": "Đã thực hiện sau khi duyệt: {\"saved\":\"language\",\"value\":\"Tiếng Việt\"}"
+        }
+      ],
+      "metrics": {
+        "steps": 8,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  },
+  {
+    "case": {
+      "id": "M19",
+      "type": "memory",
+      "decision": "reject",
+      "message": "Thử từ chối lưu memory.",
+      "args": {
+        "key": "language",
+        "value": "Tiếng Anh"
+      }
+    },
+    "result": {
+      "thread_id": "efdea40b5041443eabe3c95845437671",
+      "run_id": "43181701b8c24ea8a45398241c5d7709",
+      "trace_id": "76c7c9ff03904a5ebf3bd661c820c287",
+      "status": "rejected",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "Đã từ chối. Hành động đang chờ chưa được thực hiện.",
+      "sources": [],
+      "approval": null,
+      "history": [
+        {
+          "user": "Thử từ chối lưu memory.",
+          "assistant": "Đã từ chối. Hành động đang chờ chưa được thực hiện."
+        }
+      ],
+      "metrics": {
+        "steps": 5,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  },
+  {
+    "case": {
+      "id": "A20",
+      "type": "ticket",
+      "decision": "approve",
+      "message": "Tạo yêu cầu hỗ trợ.",
+      "args": {
+        "title": "Hỏi gia hạn",
+        "body": "Nhờ hướng dẫn gia hạn sách."
+      }
+    },
+    "result": {
+      "thread_id": "952ca8a017404eb1b15e912763e84d2e",
+      "run_id": "2cde8105479147c6810a2619a0244d59",
+      "trace_id": "be0518ae71654db0a2e6129ec61b2729",
+      "status": "completed",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "Đã thực hiện sau khi duyệt: {\"ticket_id\":\"c6f6d0f866d534ab90c067ce262572a3\",\"title\":\"Hỏi gia hạn\"}",
+      "sources": [],
+      "approval": null,
+      "history": [
+        {
+          "user": "Tạo yêu cầu hỗ trợ.",
+          "assistant": "Đã thực hiện sau khi duyệt: {\"ticket_id\":\"c6f6d0f866d534ab90c067ce262572a3\",\"title\":\"Hỏi gia hạn\"}"
+        }
+      ],
+      "metrics": {
+        "steps": 8,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  },
+  {
+    "case": {
+      "id": "A21",
+      "type": "ticket",
+      "decision": "reject",
+      "message": "Không đồng ý tạo ticket.",
+      "args": {
+        "title": "Không được ghi",
+        "body": "Bản ghi này phải bị chặn."
+      }
+    },
+    "result": {
+      "thread_id": "b5417147874a454498991efaa4bf3666",
+      "run_id": "1de5621b030149ac8c78d90bbb0e8b75",
+      "trace_id": "2b59060973e44b888ed69ead3bb1f68c",
+      "status": "rejected",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "Đã từ chối. Hành động đang chờ chưa được thực hiện.",
+      "sources": [],
+      "approval": null,
+      "history": [
+        {
+          "user": "Không đồng ý tạo ticket.",
+          "assistant": "Đã từ chối. Hành động đang chờ chưa được thực hiện."
+        }
+      ],
+      "metrics": {
+        "steps": 5,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  },
+  {
+    "case": {
+      "id": "A22",
+      "type": "email",
+      "decision": "approve",
+      "message": "Lưu nháp email, không gửi thật.",
+      "args": {
+        "to": "hotro@binhminh.example",
+        "subject": "Hỏi đăng ký thẻ",
+        "body": "Nhờ hướng dẫn đăng ký thẻ."
+      }
+    },
+    "result": {
+      "thread_id": "0957db97051e4215aac063f21c68f16d",
+      "run_id": "fef6c0a02635456f8d2c9435265d6484",
+      "trace_id": "5b010374b6164a2bae2a2ac35d3f04b6",
+      "status": "completed",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "Đã thực hiện sau khi duyệt: {\"delivery\":\"local_draft_only\",\"outbox_id\":\"3bba96cb746c299affbd7c2b3af992b1\",\"recipient\":\"hotro@binhminh.example\"}",
+      "sources": [],
+      "approval": null,
+      "history": [
+        {
+          "user": "Lưu nháp email, không gửi thật.",
+          "assistant": "Đã thực hiện sau khi duyệt: {\"delivery\":\"local_draft_only\",\"outbox_id\":\"3bba96cb746c299affbd7c2b3af992b1\",\"recipient\":\"hotro@binhminh.example\"}"
+        }
+      ],
+      "metrics": {
+        "steps": 8,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  },
+  {
+    "case": {
+      "id": "C23",
+      "type": "compound",
+      "decision": "approve",
+      "message": "Điều kiện gia hạn mượn sách là gì? Tạo ticket để hỏi thêm.",
+      "args": {
+        "title": "Gia hạn sách",
+        "body": "Nhờ nhân viên tư vấn gia hạn."
+      }
+    },
+    "result": {
+      "thread_id": "1709886f8b5a435ab21c966045110e75",
+      "run_id": "79c8d11300bb404e8d132825b76b870c",
+      "trace_id": "65190461a7244e06b06a65dc83b1353f",
+      "status": "completed",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "Mình chưa có thông tin này trong tài liệu.\n\nĐã thực hiện sau khi duyệt: {\"ticket_id\":\"dd4e0e77f80cd66af8bea7149ac6f814\",\"title\":\"Gia hạn sách\"}",
+      "sources": [],
+      "approval": null,
+      "history": [
+        {
+          "user": "Điều kiện gia hạn mượn sách là gì? Tạo ticket để hỏi thêm.",
+          "assistant": "Mình chưa có thông tin này trong tài liệu.\n\nĐã thực hiện sau khi duyệt: {\"ticket_id\":\"dd4e0e77f80cd66af8bea7149ac6f814\",\"title\":\"Gia hạn sách\"}"
+        }
+      ],
+      "metrics": {
+        "steps": 10,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  },
+  {
+    "case": {
+      "id": "C24",
+      "type": "followup",
+      "message": "Thư viện mở cửa Chủ nhật không?",
+      "followup": "Còn thứ Bảy?",
+      "doc": "D01",
+      "contains": "17:00"
+    },
+    "result": {
+      "thread_id": "ef21949ee6aa49b79b1d1054ba2fdb2d",
+      "run_id": "3610256d8f6c477a82b8ec1d8b587298",
+      "trace_id": "8d776c7aa2934006b53b743f60c67296",
+      "status": "completed",
+      "mode": "offline",
+      "fallback_reason": "",
+      "answer": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D01] Thư viện Bình Minh mở cửa từ 08:00 đến 20:00 từ thứ Hai đến thứ Sáu.\nThứ Bảy, thư viện mở cửa từ 08:00 đến 17:00. Thư viện đóng cửa vào Chủ nhật\nvà các ngày lễ. Quy định giờ mở cửa áp dụng cho khu đọc sách và quầy mượn trả.\nBạn đọc cần hoàn tất việc mượn sách trước giờ đóng cửa 15 phút.\nNếu lịch hoạt động thay đổi, thư viện sẽ thông báo tại bảng tin ở quầy lễ tân.\nTài liệu này không quy định lịch mở cửa của các dịch vụ bên ngoài thư viện.",
+      "sources": [
+        {
+          "doc_id": "D01",
+          "title": "Giờ mở cửa",
+          "text": "Thư viện Bình Minh mở cửa từ 08:00 đến 20:00 từ thứ Hai đến thứ Sáu.\nThứ Bảy, thư viện mở cửa từ 08:00 đến 17:00. Thư viện đóng cửa vào Chủ nhật\nvà các ngày lễ. Quy định giờ mở cửa áp dụng cho khu đọc sách và quầy mượn trả.\nBạn đọc cần hoàn tất việc mượn sách trước giờ đóng cửa 15 phút.\nNếu lịch hoạt động thay đổi, thư viện sẽ thông báo tại bảng tin ở quầy lễ tân.\nTài liệu này không quy định lịch mở cửa của các dịch vụ bên ngoài thư viện.",
+          "score": 0.98044
+        }
+      ],
+      "approval": null,
+      "history": [
+        {
+          "user": "Thư viện mở cửa Chủ nhật không?",
+          "assistant": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D01] Thư viện Bình Minh mở cửa từ 08:00 đến 20:00 từ thứ Hai đến thứ Sáu.\nThứ Bảy, thư viện mở cửa từ 08:00 đến 17:00. Thư viện đóng cửa vào Chủ nhật\nvà các ngày lễ. Quy định giờ mở cửa áp dụng cho khu đọc sách và quầy mượn trả.\nBạn đọc cần hoàn tất việc mượn sách trước giờ đóng cửa 15 phút.\nNếu lịch hoạt động thay đổi, thư viện sẽ thông báo tại bảng tin ở quầy lễ tân.\nTài liệu này không quy định lịch mở cửa của các dịch vụ bên ngoài thư viện."
+        },
+        {
+          "user": "Còn thứ Bảy?",
+          "assistant": "[Offline: trích đoạn tài liệu, không phải câu trả lời sinh bởi LLM]\n[D01] Thư viện Bình Minh mở cửa từ 08:00 đến 20:00 từ thứ Hai đến thứ Sáu.\nThứ Bảy, thư viện mở cửa từ 08:00 đến 17:00. Thư viện đóng cửa vào Chủ nhật\nvà các ngày lễ. Quy định giờ mở cửa áp dụng cho khu đọc sách và quầy mượn trả.\nBạn đọc cần hoàn tất việc mượn sách trước giờ đóng cửa 15 phút.\nNếu lịch hoạt động thay đổi, thư viện sẽ thông báo tại bảng tin ở quầy lễ tân.\nTài liệu này không quy định lịch mở cửa của các dịch vụ bên ngoài thư viện."
+        }
+      ],
+      "metrics": {
+        "steps": 5,
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "thinking_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "known_cost_lower_bound_usd": 0.0
+      }
+    },
+    "error": null
+  }
+]

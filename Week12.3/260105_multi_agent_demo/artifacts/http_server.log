@@ -1,0 +1,36 @@
+INFO:     Started server process [5308]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8021 (Press CTRL+C to quit)
+INFO:     127.0.0.1:56238 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56238 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56238 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56238 - "GET /api/inventory HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:56238 - "POST /api/session HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56238 - "POST /api/session HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56238 - "POST /api/threads HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56238 - "POST /api/threads/a78be658f7344897bff91047b545014c/turn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56238 - "POST /api/threads/a78be658f7344897bff91047b545014c/turn HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:56238 - "POST /api/threads/a78be658f7344897bff91047b545014c/turn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56238 - "GET /api/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56238 - "POST /api/threads/a78be658f7344897bff91047b545014c/turn HTTP/1.1" 409 Conflict
+INFO:     Started server process [5276]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8021 (Press CTRL+C to quit)
+INFO:     127.0.0.1:56244 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56244 - "GET /api/threads/a78be658f7344897bff91047b545014c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56244 - "POST /api/threads/a78be658f7344897bff91047b545014c/approval HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:56244 - "POST /api/threads/a78be658f7344897bff91047b545014c/approval HTTP/1.1" 409 Conflict
+INFO:     127.0.0.1:56244 - "POST /api/threads/a78be658f7344897bff91047b545014c/approval HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56244 - "POST /api/threads/a78be658f7344897bff91047b545014c/approval HTTP/1.1" 409 Conflict
+INFO:     127.0.0.1:56244 - "GET /api/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56244 - "GET /api/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56244 - "POST /api/threads HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56244 - "POST /api/threads/a885ed5199dc44468286e305fbaa95b5/turn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56244 - "POST /api/threads/a885ed5199dc44468286e305fbaa95b5/turn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56244 - "GET /api/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56244 - "POST /api/threads/a885ed5199dc44468286e305fbaa95b5/approval HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56244 - "GET /api/traces/346cce6b8aef4a2f908c72c335fe900a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56244 - "GET /api/traces/346cce6b8aef4a2f908c72c335fe900a HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56244 - "GET /api/traces/346cce6b8aef4a2f908c72c335fe900a/download HTTP/1.1" 200 OK

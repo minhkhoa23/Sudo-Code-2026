@@ -1,0 +1,125 @@
+{
+  "status": "passed",
+  "http_requests_checked": 23,
+  "process_restart": true,
+  "cross_user_isolation": true,
+  "checkpoint_resume": true,
+  "trace_source": "real localhost HTTP / offline LangGraph",
+  "checks": [
+    {
+      "path": "/api/inventory",
+      "method": "GET",
+      "status": 401
+    },
+    {
+      "path": "/api/session",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/session",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/threads",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/threads/a78be658f7344897bff91047b545014c/turn",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/threads/a78be658f7344897bff91047b545014c/turn",
+      "method": "POST",
+      "status": 422
+    },
+    {
+      "path": "/api/threads/a78be658f7344897bff91047b545014c/turn",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/inventory",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/threads/a78be658f7344897bff91047b545014c/turn",
+      "method": "POST",
+      "status": 409
+    },
+    {
+      "path": "/api/threads/a78be658f7344897bff91047b545014c",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/threads/a78be658f7344897bff91047b545014c/approval",
+      "method": "POST",
+      "status": 403
+    },
+    {
+      "path": "/api/threads/a78be658f7344897bff91047b545014c/approval",
+      "method": "POST",
+      "status": 409
+    },
+    {
+      "path": "/api/threads/a78be658f7344897bff91047b545014c/approval",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/threads/a78be658f7344897bff91047b545014c/approval",
+      "method": "POST",
+      "status": 409
+    },
+    {
+      "path": "/api/inventory",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/inventory",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/threads",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/threads/a885ed5199dc44468286e305fbaa95b5/turn",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/threads/a885ed5199dc44468286e305fbaa95b5/turn",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/inventory",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/threads/a885ed5199dc44468286e305fbaa95b5/approval",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/traces/346cce6b8aef4a2f908c72c335fe900a",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/traces/346cce6b8aef4a2f908c72c335fe900a",
+      "method": "GET",
+      "status": 404
+    }
+  ]
+}
